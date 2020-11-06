@@ -27,7 +27,6 @@ class MyTopo(Topo):
         self.addLink(h5, s3)
         self.addLink(h6, s2)
         self.addLink(h7, s2)
-        self.addLink(s1, s2)
         self.addLink(s1, s3)
         self.addLink(s2, s3)
 
